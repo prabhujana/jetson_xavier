@@ -1,0 +1,15 @@
+1. Download the kernel_out.zip file
+2. Extract it and copy the files in kernel-4.9 and follow the instructions in https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%2520Linux%2520Driver%2520Package%2520Development%2520Guide%2Fkernel_custom.html%23
+from step 5 - 7
+
+3. Use SDK Manager and flash the Jetson
+4. Download the cuda_repo.zip and extract to any location in Jetson Xavier
+5. Unzip 
+6. Create a repo file in /etc/apt/sources.list.d/cuda.repo
+  add the path the extracted foldler
+  
+    e.g: deb file:///usr/local/share/cuda/
+7. RUN sudo apt-get update
+8. RUN sudo apt-get install cuda-toolkit-10-0
+
+### Installation Complete ###
