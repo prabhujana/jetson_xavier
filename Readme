@@ -1,4 +1,5 @@
-1. Download the kernel_out.zip file
+1. Download the kernel_out.zip file 
+        https://drive.google.com/file/d/1j-1-6Xt2PbhcP3d0_9mzBkrBLYaMBy5h/view?usp=sharing
 2. Extract it and copy the files in kernel-4.9 and follow the instructions in https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%2520Linux%2520Driver%2520Package%2520Development%2520Guide%2Fkernel_custom.html%23
 from step 5 - 7
 
